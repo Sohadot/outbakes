@@ -13,8 +13,8 @@ performance. The unit of the brand is a verb: *to outbake* — to surpass in bak
 
 ## What OUTBAKES is
 
-A performance-baking brand that owns the outcome — better baking — and lets its products stand as
-evidence of it.
+A performance-baking brand defined by one outcome — better baking. Its products stand as evidence
+of it.
 
 - Not a bakery.
 - Not a single product.
