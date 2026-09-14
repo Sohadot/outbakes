@@ -5,7 +5,7 @@
     { "file": "Product.dc.html", "x": 2200, "y": 0, "w": 760, "h": 920, "title": "OUTBAKES · Signature Flour" }
   ],
   "annotations": [
-    { "id": "the-test", "x": 0, "y": -132, "w": 620, "text": "The test: does OUTBAKES read as ONE brand across hardware, intelligence and product — or was it reinvented each time?\nSystems · Intelligence · Kitchen — three distant territories, one masterbrand." }
+    { "id": "territories", "x": 0, "y": -120, "w": 620, "text": "OUTBAKES across three demonstration territories.\nSystems · Intelligence · Kitchen — one masterbrand." }
   ],
   "launch": { "view": "canvas" }
 }

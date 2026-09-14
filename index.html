@@ -5,10 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="OUTBAKES — a performance brand for better baking. Available for strategic acquisition.">
   <title>OUTBAKES — Built to Outbake.</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@1,18,400;1,18,500&display=swap" rel="stylesheet">
+  <link rel="canonical" href="https://outbakes.com/">
+  <meta name="theme-color" content="#171816">
+  <meta name="robots" content="index,follow">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="OUTBAKES">
+  <meta property="og:title" content="OUTBAKES — Built to Outbake.">
+  <meta property="og:description" content="A performance brand for better baking.">
+  <meta property="og:url" content="https://outbakes.com/">
+  <meta property="og:image" content="https://outbakes.com/og-image.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="OUTBAKES — Built to Outbake.">
+  <meta name="twitter:description" content="A performance brand for better baking.">
+  <meta name="twitter:image" content="https://outbakes.com/og-image.svg">
   <style>
+    /* Self-hosted webfonts (SIL OFL 1.1 — see fonts/OFL.txt). No external dependencies. */
+    @font-face{font-family:"Space Grotesk";font-style:normal;font-weight:400 700;
+      font-display:swap;src:url("fonts/space-grotesk-latin.woff2") format("woff2");}
+    @font-face{font-family:"Newsreader";font-style:italic;font-weight:400 500;
+      font-display:swap;src:url("fonts/newsreader-italic-latin.woff2") format("woff2");}
     :root{
       --carbon:#171816; --graphite:#272925; --ivory:#F4F0E7;
       --wheat:#D8C5A5; --gold:#B97932; --crust:#8F5528; --ember:#DD4B1A;
@@ -37,7 +53,8 @@
     .master{font-size:clamp(1.1rem,3vw,1.6rem);color:var(--ivory);margin-top:18px;font-weight:400;}
     .support{font-size:.95rem;color:var(--wheat);opacity:.8;margin-top:14px;letter-spacing:.3px;}
     .hero-scene{margin-top:56px;}
-    .scroll-cue{margin-top:54px;font-size:10px;letter-spacing:3px;color:var(--wheat);opacity:.5;text-transform:uppercase;}
+    .scene-tag{margin-top:16px;font-size:10px;letter-spacing:3px;color:var(--wheat);opacity:.5;text-transform:uppercase;}
+    .scroll-cue{margin-top:44px;font-size:10px;letter-spacing:3px;color:var(--wheat);opacity:.5;text-transform:uppercase;}
 
     /* oven scene (from Systems mockup) */
     .oven{width:min(560px,92vw);}
@@ -124,7 +141,6 @@
     .acq{text-align:center;}
     .acq h2{font-size:clamp(1.8rem,5vw,3rem);font-weight:500;letter-spacing:-.5px;}
     .acq p{color:var(--wheat);opacity:.85;margin-top:20px;font-size:1.05rem;max-width:560px;margin-left:auto;margin-right:auto;}
-    .acq .price{color:var(--ivory);opacity:1;margin-top:10px;letter-spacing:2px;font-size:.85rem;text-transform:uppercase;}
     .cta{display:inline-block;margin-top:44px;padding:18px 44px;border:1px solid #3a3c35;border-radius:2px;
       font-size:.9rem;letter-spacing:2px;text-transform:uppercase;color:var(--ivory);transition:.4s;}
     .cta:hover{border-color:var(--gold);color:var(--gold);}
@@ -169,6 +185,7 @@
           <div class="glass"><div class="glow"></div><div class="sheen"></div><div class="glass-label">CONTROLLED HEAT</div></div>
         </div>
       </div>
+      <div class="scene-tag">Systems · Brand vision</div>
     </div>
 
     <div class="scroll-cue">Scroll</div>
@@ -257,8 +274,8 @@
             <div class="pack">
               <div class="pack-top">OUTBAKES</div>
               <div class="pack-hair"></div>
-              <div class="pack-desc">kitchen</div>
-              <div class="pack-name">Strong White<br>Flour</div>
+              <div class="pack-desc">kitchen · finely milled</div>
+              <div class="pack-name">Fine 00<br>Flour</div>
               <div class="pack-mid">
                 <div style="font-size:11px;letter-spacing:1px;color:var(--wheat);opacity:.8;">1 KG</div>
                 <div class="seal"><span>00</span></div>
@@ -284,8 +301,7 @@
   <section class="acq" id="acquire">
     <div class="wrap">
       <h2>Strategic acquisition.</h2>
-      <p>Outbakes.com is available for strategic acquisition by a single operator.</p>
-      <p class="price">Price upon qualification</p>
+      <p>Outbakes.com is available for strategic acquisition.</p>
       <a class="cta" href="mailto:agent@sohadot.com?subject=OUTBAKES%20%E2%80%94%20Strategic%20acquisition%20enquiry">Begin a private enquiry →</a>
     </div>
   </section>
