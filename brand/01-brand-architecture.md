@@ -49,18 +49,20 @@ OUTBAKES is a **branded house**, not a house of brands.
 |---|---|---|
 | Example | Apple, Google | P&G, Unilever |
 | What the name does | *Is* the product, everywhere | Sits behind independent names |
-| Effect on our thesis | Proves one word spans the category | Silently admits the word is just a holding label |
+| Effect on the brand | Proves one word spans the category | Reduces the word to a holding label |
 
 **Rule:** extensions are **descriptors**, not sub-brands. Equity flows *down* from OUTBAKES into
-every line; no line is allowed to build separate equity that competes with the masterbrand.
-
-This is the single most important guardrail against the failure mode we named:
-*inflating a company that does not exist.* Descriptors describe; they do not pretend to be
-subsidiaries.
+every line; no line builds separate equity that competes with the masterbrand. Descriptors
+describe; they do not pretend to be subsidiaries.
 
 ---
 
-## 3. The two-axis map
+## 3. The two-axis map — demonstration territories
+
+Systems / Intelligence / Kitchen are **demonstration territories**, not a fixed corporate
+structure. Their job is to prove the name can extend across materially distant layers —
+a physical thing, a knowledge/software layer, and something consumable close to baking itself.
+They are evidence of range, **not** divisions an acquirer is expected to keep.
 
 Everything the brand can make is a cell in a 2×3 grid — **not** an entry in a list of invented names.
 
@@ -96,12 +98,14 @@ promise, AND a distinct go-to-market. Tested against that bar:
 |---|---|---|
 | **Pro / Home** | **Descriptor** | Same promise, different audience tier. Masterbrand does the work. |
 | **Systems / Kitchen** | **Descriptor** | Different form factor of the same outcome, not a different brand. |
-| **Intelligence** | **Descriptor now; the *only* candidate for a named layer later** | If, and only if, it becomes a platform others build on (an OS/ecosystem play), a name could be justified — post-acquisition, by the operator. We do not name it now. |
-| **Studio / Labs** | **Not in v1** | "Studio" (creators/education) and "Labs" (R&D) are plausible future *channels*, but naming them now reads as inflation. Held in reserve, out of the architecture. |
+| **Intelligence** | **Descriptor now; the *only* candidate for a named layer later** | If, and only if, it becomes a platform others build on (an OS/ecosystem play), a name could be justified — by the operator, later. Not named now. |
 
-**Result:** zero coined sub-brands in the presented architecture. One reserved option
-(Intelligence), explicitly deferred to the operator. This keeps the story honest and still proves
-full-portfolio range.
+Only the three demonstration territories appear in this architecture. Any further layers are held
+outside v1 entirely — not shown, not implied — so range is proven by three distant territories,
+not by a long list of coined divisions.
+
+**Result:** zero coined sub-brands in the architecture. One reserved option (Intelligence),
+explicitly deferred to the operator. Honest story, full-portfolio range.
 
 ---
 
@@ -131,26 +135,22 @@ and never accompanied by fabricated proof (no customers, sales figures, or "as s
 
 ## 7. Guardrails (what we deliberately do NOT do)
 
-- No claim of owning a category or a trademark. Copy says: *"Acquire the .com at the center of the
-  OUTBAKES brand position"* — never *"own the Outbake category."*
-- No comparison to other domains, no Candy reference, no defense of why the word is good.
-  The brand behaves with confidence; the buyer draws the conclusion.
-- No forced coined divisions. Range is proven by the 2×3 map + 3 applications, not by a long list of
-  invented names.
-- No fabricated traction of any kind.
+- **Position on the brand, not the transaction.** OUTBAKES is presented on its own brand mechanics
+  and strategic range. No comparison to other assets, no defense of the word — the brand behaves
+  with confidence and the viewer draws the conclusion.
+- **Brand-position language, never category-ownership language.** Copy says *"Acquire the .com at the
+  center of the OUTBAKES brand position"* — never *"own the category."* No claim of exclusivity
+  anywhere on public surfaces.
+- **No forced coined divisions.** Range is proven by three demonstration territories + three
+  applications, not by a list of invented names.
+- **No fabricated traction of any kind** — no customers, sales figures, or "as seen in."
+
+> Note: legal/trademark clearance is tracked in the private (internal) layer, not in this public
+> repository. Until clearance, all public copy stays at brand-position language by the rule above.
 
 ---
 
-## 8. Open trademark gate (before any "ownership" language)
-
-Known prior use to clear before public claims: **OUTBAKE LIMITED** (UK company),
-an **Outbake** trademark application (Indonesia, Nice class 30), and an Australian "outbake"
-trading name. Professional clearance required before we describe exclusivity anywhere. Until then,
-all copy stays at *brand-position* language, not *category-ownership* language.
-
----
-
-## 9. Next layers
+## 8. Next layers
 
 - **Layer 3 — Verbal System:** voice, the verb-as-brand mechanics, tagline system, tone in each of
   the three territories.
