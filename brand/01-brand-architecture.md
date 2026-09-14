@@ -20,6 +20,23 @@ of it.
 - Not a single product.
 - Not one technology.
 
+## Positioning — an outcome umbrella
+
+OUTBAKES names a shared performance outcome rather than a single product class.
+
+An oven, a flour formulation, a bakery, a fermentation system, a baking-intelligence platform, or a
+production line may belong to very different categories. What connects them is the result each is
+designed to improve: better baking.
+
+That shared outcome gives OUTBAKES functional range across otherwise distinct layers of baking. Its
+organizing idea is not what a product is, but what it helps achieve.
+
+OUTBAKES names the competitive outcome that connects them.
+
+Its breadth is therefore functional rather than lexical: not a claim to encompass every baking
+category, but a brand position capable of spanning multiple categories through one shared
+performance promise.
+
 ## Model — a branded house
 
 OUTBAKES is a branded house: the name *is* the product, everywhere. Every extension is a
