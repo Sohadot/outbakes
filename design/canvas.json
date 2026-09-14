@@ -1,0 +1,11 @@
+{
+  "artboards": [
+    { "file": "Main.dc.html", "x": 0, "y": 0, "w": 960, "h": 720, "title": "OUTBAKES · Precision Oven" },
+    { "file": "Intelligence.dc.html", "x": 1080, "y": 0, "w": 1000, "h": 720, "title": "OUTBAKES · Intelligence" },
+    { "file": "Product.dc.html", "x": 2200, "y": 0, "w": 760, "h": 920, "title": "OUTBAKES · Signature Flour" }
+  ],
+  "annotations": [
+    { "id": "territories", "x": 0, "y": -120, "w": 620, "text": "OUTBAKES across three demonstration territories.\nSystems · Intelligence · Kitchen — one masterbrand." }
+  ],
+  "launch": { "view": "canvas" }
+}

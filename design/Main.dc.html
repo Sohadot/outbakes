@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap">
+  <style>
+    :root{
+      --carbon:#171816; --graphite:#272925; --ivory:#F4F0E7;
+      --wheat:#D8C5A5; --gold:#B97932; --crust:#8F5528; --ember:#DD4B1A;
+      --sans:"Space Grotesk", system-ui, sans-serif;
+    }
+    *{box-sizing:border-box;}
+    body{margin:0;font-family:var(--sans);}
+    a{color:var(--gold);} a:hover{color:var(--crust);}
+    .frame{width:960px;height:720px;background:
+        radial-gradient(120% 90% at 50% 8%, #1e201d 0%, var(--carbon) 62%);
+      color:var(--ivory);padding:40px 48px;display:flex;flex-direction:column;}
+    .topbar{display:flex;justify-content:space-between;align-items:baseline;}
+    .wordmark{font-weight:600;font-size:22px;letter-spacing:6px;color:var(--ivory);}
+    .terr{font-size:11px;letter-spacing:3px;color:var(--wheat);opacity:.62;text-transform:uppercase;}
+    .stage{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:26px;}
+    .kicker{font-size:15px;color:var(--wheat);opacity:.82;letter-spacing:.3px;}
+    .hero{font-size:42px;font-weight:600;letter-spacing:-.5px;color:var(--ivory);line-height:1;}
+    .rule{width:46px;height:2px;background:var(--gold);margin-top:2px;}
+    /* oven */
+    .oven{width:640px;}
+    .oven-control{height:62px;background:linear-gradient(180deg,#30322d,#22241f);
+      border:1px solid #3a3c36;border-bottom:none;border-radius:14px 14px 0 0;
+      display:flex;align-items:center;justify-content:space-between;padding:0 22px;}
+    .readout{display:flex;align-items:center;gap:16px;}
+    .screen{background:#0d0e0c;border:1px solid #34362f;border-radius:7px;padding:7px 12px;min-width:118px;
+      box-shadow:inset 0 1px 6px rgba(0,0,0,.6);}
+    .temp{font-size:18px;font-weight:600;color:var(--gold);letter-spacing:.5px;line-height:1;}
+    .sub{font-size:10px;color:var(--wheat);opacity:.7;letter-spacing:1.5px;margin-top:3px;}
+    .status{display:flex;align-items:center;gap:8px;font-size:10.5px;letter-spacing:2px;color:var(--wheat);}
+    .dot{width:9px;height:9px;border-radius:50%;background:var(--ember);
+      box-shadow:0 0 9px 1px rgba(221,75,26,.7);}
+    .dial{width:44px;height:44px;border-radius:50%;background:radial-gradient(circle at 38% 34%,#3b3d37,#1c1e19);
+      border:1px solid #45473f;position:relative;}
+    .dial::after{content:"";position:absolute;top:6px;left:50%;width:2px;height:12px;background:var(--gold);
+      transform:translateX(-50%);border-radius:2px;}
+    .oven-door{background:linear-gradient(180deg,#2b2d28,#1f211c);border:1px solid #3a3c36;
+      border-radius:0 0 16px 16px;padding:20px;}
+    .handle{height:12px;border-radius:8px;margin-bottom:16px;
+      background:linear-gradient(180deg,#eaddc4 0%,var(--gold) 52%,#5f3c1e 100%);
+      box-shadow:0 1px 3px rgba(0,0,0,.5);}
+    .glass{position:relative;height:236px;border-radius:9px;overflow:hidden;
+      background:linear-gradient(160deg,#111310 0%,#0b0c0a 100%);
+      border:1px solid #000;box-shadow:inset 0 2px 22px rgba(0,0,0,.85);}
+    .glow{position:absolute;left:0;right:0;bottom:0;height:74%;
+      background:radial-gradient(80% 130% at 50% 118%,
+        rgba(185,121,50,.30) 0%, rgba(143,85,40,.14) 42%, transparent 70%);}
+    .sheen{position:absolute;top:0;left:0;right:0;height:100%;
+      background:linear-gradient(115deg,rgba(244,240,231,.06) 0%,transparent 34%);}
+    .glass-label{position:absolute;bottom:14px;left:0;right:0;text-align:center;
+      font-size:10px;letter-spacing:5px;color:var(--wheat);opacity:.5;}
+    .bottombar{display:flex;justify-content:space-between;align-items:baseline;}
+    .master{font-size:14px;letter-spacing:.4px;color:var(--ivory);}
+    .disc{font-size:10px;letter-spacing:1px;color:var(--wheat);opacity:.42;text-align:right;max-width:280px;}
+  </style>
+</helmet>
+<div class="frame">
+  <div class="topbar">
+    <div class="wordmark">OUTBAKES</div>
+    <div class="terr">Systems — Precision Oven</div>
+  </div>
+
+  <div class="stage">
+    <div style="text-align:center;display:flex;flex-direction:column;align-items:center;gap:8px;">
+      <div class="kicker">This oven doesn&#39;t just bake.</div>
+      <div class="hero">It Outbakes.</div>
+      <div class="rule"></div>
+    </div>
+
+    <div class="oven">
+      <div class="oven-control">
+        <div class="readout">
+          <div class="screen">
+            <div class="temp">182°C</div>
+            <div class="sub">STEAM 40%</div>
+          </div>
+          <div class="status"><span class="dot"></span>OPTIMUM</div>
+        </div>
+        <div class="dial"></div>
+      </div>
+      <div class="oven-door">
+        <div class="handle"></div>
+        <div class="glass">
+          <div class="glow"></div>
+          <div class="sheen"></div>
+          <div class="glass-label">CONTROLLED HEAT</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bottombar">
+    <div class="master">Built to Outbake.</div>
+    <div class="disc">Brand vision concept — not a currently marketed product.</div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>
