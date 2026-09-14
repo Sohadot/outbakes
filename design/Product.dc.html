@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@1,18,400;1,18,500&display=swap">
+  <style>
+    :root{
+      --carbon:#171816; --graphite:#272925; --ivory:#F4F0E7;
+      --wheat:#D8C5A5; --gold:#B97932; --crust:#8F5528; --ember:#DD4B1A;
+      --sans:"Space Grotesk", system-ui, sans-serif;
+      --serif:"Newsreader", Georgia, serif;
+    }
+    *{box-sizing:border-box;}
+    body{margin:0;font-family:var(--sans);}
+    a{color:var(--crust);} a:hover{color:var(--gold);}
+    .frame{width:760px;height:920px;background:
+        radial-gradient(120% 80% at 50% 12%, #FBF8F1 0%, var(--ivory) 46%, #ECE4D3 100%);
+      color:var(--carbon);padding:44px 48px;display:flex;flex-direction:column;}
+    .topbar{display:flex;justify-content:space-between;align-items:baseline;}
+    .wordmark{font-weight:600;font-size:22px;letter-spacing:6px;color:var(--carbon);}
+    .terr{font-size:11px;letter-spacing:3px;color:var(--crust);opacity:.85;text-transform:uppercase;}
+    .stage{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:34px;}
+    .serif-hero{font-family:var(--serif);font-style:italic;font-size:34px;color:var(--carbon);
+      text-align:center;line-height:1.1;font-weight:500;}
+    .serif-hero .accent{color:var(--crust);}
+    .prod-wrap{position:relative;display:flex;flex-direction:column;align-items:center;}
+    .shadow{position:absolute;bottom:-26px;left:50%;transform:translateX(-50%);
+      width:330px;height:46px;border-radius:50%;
+      background:radial-gradient(closest-side,rgba(60,44,24,.30),transparent);filter:blur(2px);}
+    /* package */
+    .pack{width:300px;height:432px;border-radius:16px 16px 10px 10px;
+      background:linear-gradient(158deg,#20221d 0%,#141511 100%);
+      border:1px solid #000;box-shadow:0 26px 40px -22px rgba(40,28,14,.55),
+        inset 0 1px 0 rgba(244,240,231,.06);
+      padding:30px 28px;display:flex;flex-direction:column;color:var(--ivory);}
+    .pack-seam{position:absolute;top:0;left:50%;transform:translateX(-50%);
+      width:120px;height:9px;background:#0c0d0a;border-radius:0 0 7px 7px;}
+    .pack-top{font-size:16px;font-weight:600;letter-spacing:5px;color:var(--ivory);text-align:center;}
+    .pack-hair{height:1px;background:#3a3c35;margin:14px 0 4px;}
+    .pack-desc{font-size:10px;letter-spacing:3px;color:var(--wheat);opacity:.8;text-align:center;text-transform:uppercase;}
+    .pack-name{margin-top:auto;font-size:30px;font-weight:600;line-height:1.02;letter-spacing:-.3px;color:var(--ivory);}
+    .pack-mid{display:flex;align-items:flex-end;justify-content:space-between;margin-top:14px;}
+    .seal{width:64px;height:64px;border-radius:50%;flex:none;
+      background:radial-gradient(circle at 38% 34%,#E7D6B2,var(--gold) 58%,#6f4420);
+      display:flex;align-items:center;justify-content:center;
+      box-shadow:0 2px 6px rgba(0,0,0,.4);}
+    .seal span{font-weight:700;font-size:22px;color:#1a130a;letter-spacing:1px;}
+    .pack-proof{font-family:var(--serif);font-style:italic;font-size:15px;color:var(--wheat);}
+    .pack-bottom{display:flex;justify-content:space-between;align-items:baseline;margin-top:18px;
+      border-top:1px solid #3a3c35;padding-top:12px;}
+    .pack-desc2{font-size:10px;letter-spacing:2px;color:var(--wheat);opacity:.8;}
+    .pack-weight{font-size:13px;font-weight:600;color:var(--ivory);letter-spacing:1px;}
+    .bottombar{display:flex;justify-content:space-between;align-items:baseline;}
+    .master{font-size:14px;letter-spacing:.4px;color:var(--carbon);}
+    .disc{font-size:10px;letter-spacing:1px;color:var(--crust);opacity:.6;text-align:right;max-width:280px;}
+  </style>
+</helmet>
+<div class="frame">
+  <div class="topbar">
+    <div class="wordmark">OUTBAKES</div>
+    <div class="terr">Kitchen — Signature Flour</div>
+  </div>
+
+  <div class="stage">
+    <div class="serif-hero">Precision you can <span class="accent">taste.</span></div>
+
+    <div class="prod-wrap">
+      <div class="shadow"></div>
+      <div class="pack">
+        <div class="pack-seam"></div>
+        <div class="pack-top">OUTBAKES</div>
+        <div class="pack-hair"></div>
+        <div class="pack-desc">kitchen</div>
+
+        <div class="pack-name">Strong White<br>Flour</div>
+        <div class="pack-mid">
+          <div class="pack-proof">It Outbakes.</div>
+          <div class="seal"><span>00</span></div>
+        </div>
+        <div class="pack-bottom">
+          <div class="pack-desc2">STONE-MILLED · PERFORMANCE GRADE</div>
+          <div class="pack-weight">1 KG</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bottombar">
+    <div class="master">Built to Outbake.</div>
+    <div class="disc">Brand vision concept — not a currently marketed product.</div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

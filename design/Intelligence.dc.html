@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap">
+  <style>
+    :root{
+      --carbon:#171816; --graphite:#272925; --ivory:#F4F0E7;
+      --wheat:#D8C5A5; --gold:#B97932; --crust:#8F5528; --ember:#DD4B1A;
+      --sans:"Space Grotesk", system-ui, sans-serif;
+    }
+    *{box-sizing:border-box;}
+    body{margin:0;font-family:var(--sans);}
+    a{color:var(--gold);} a:hover{color:var(--crust);}
+    .frame{width:1000px;height:720px;background:
+        radial-gradient(120% 90% at 78% 0%, #1e201d 0%, var(--carbon) 60%);
+      color:var(--ivory);padding:40px 48px;display:flex;flex-direction:column;}
+    .topbar{display:flex;justify-content:space-between;align-items:baseline;}
+    .wordmark{font-weight:600;font-size:22px;letter-spacing:6px;color:var(--ivory);}
+    .terr{font-size:11px;letter-spacing:3px;color:var(--wheat);opacity:.62;text-transform:uppercase;}
+    .heads{margin-top:26px;}
+    .hero{font-size:27px;font-weight:500;letter-spacing:-.2px;color:var(--ivory);line-height:1.15;max-width:640px;}
+    .sig{font-size:12px;letter-spacing:2px;color:var(--gold);margin-top:8px;text-transform:uppercase;}
+    .content{flex:1;display:flex;gap:40px;align-items:center;}
+    /* metrics */
+    .metrics{width:286px;display:flex;flex-direction:column;}
+    .metric{padding:16px 0;border-top:1px solid #2f312b;}
+    .metric:first-child{border-top:none;}
+    .m-label{font-size:10px;letter-spacing:2.5px;color:var(--wheat);opacity:.72;text-transform:uppercase;}
+    .m-row{display:flex;align-items:baseline;justify-content:space-between;margin-top:6px;}
+    .m-val{font-size:27px;font-weight:600;color:var(--ivory);line-height:1;}
+    .m-val .u{font-size:14px;font-weight:400;color:var(--wheat);margin-left:3px;}
+    .m-tag{font-size:10px;letter-spacing:1.5px;color:var(--gold);}
+    .track{height:3px;border-radius:2px;background:#2f312b;margin-top:12px;overflow:hidden;}
+    .fill{height:100%;background:var(--gold);border-radius:2px;}
+    /* panel */
+    .panel{flex:1;align-self:stretch;background:linear-gradient(180deg,#212320,#191b17);
+      border:1px solid #2f312b;border-radius:14px;padding:22px 24px;display:flex;flex-direction:column;}
+    .p-head{display:flex;justify-content:space-between;align-items:center;}
+    .p-title{font-size:12px;letter-spacing:2px;color:var(--wheat);text-transform:uppercase;}
+    .p-now{display:flex;align-items:center;gap:8px;font-size:10.5px;letter-spacing:2px;color:var(--ivory);}
+    .dot{width:9px;height:9px;border-radius:50%;background:var(--ember);
+      box-shadow:0 0 9px 1px rgba(221,75,26,.7);}
+    .chart{flex:1;margin-top:14px;}
+    .caption{font-size:10px;letter-spacing:2px;color:var(--wheat);opacity:.55;text-transform:uppercase;}
+    .bottombar{display:flex;justify-content:space-between;align-items:baseline;}
+    .master{font-size:14px;letter-spacing:.4px;color:var(--ivory);}
+    .disc{font-size:10px;letter-spacing:1px;color:var(--wheat);opacity:.42;text-align:right;max-width:280px;}
+  </style>
+</helmet>
+<div class="frame">
+  <div class="topbar">
+    <div class="wordmark">OUTBAKES</div>
+    <div class="terr">Intelligence — Bake Profile</div>
+  </div>
+
+  <div class="heads">
+    <div class="hero">Know what changes the bake<br>before the bake changes.</div>
+    <div class="sig">Intelligence that Outbakes.</div>
+  </div>
+
+  <div class="content">
+    <div class="metrics">
+      <div class="metric">
+        <div class="m-label">Heat</div>
+        <div class="m-row"><div class="m-val">182<span class="u">°C</span></div><div class="m-tag">IN BAND</div></div>
+        <div class="track"><div class="fill" style="width:88%"></div></div>
+      </div>
+      <div class="metric">
+        <div class="m-label">Moisture</div>
+        <div class="m-row"><div class="m-val">41<span class="u">%</span></div><div class="m-tag">HOLDING</div></div>
+        <div class="track"><div class="fill" style="width:41%"></div></div>
+      </div>
+      <div class="metric">
+        <div class="m-label">Timing</div>
+        <div class="m-row"><div class="m-val">12:40</div><div class="m-tag">−03:10</div></div>
+        <div class="track"><div class="fill" style="width:80%"></div></div>
+      </div>
+      <div class="metric">
+        <div class="m-label">Consistency</div>
+        <div class="m-row"><div class="m-val">98<span class="u">%</span></div><div class="m-tag">STABLE</div></div>
+        <div class="track"><div class="fill" style="width:98%"></div></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="p-head">
+        <div class="p-title">Heat over time</div>
+        <div class="p-now"><span class="dot"></span>OPTIMUM REACHED</div>
+      </div>
+      <div class="chart">
+        <svg viewBox="0 0 600 300" width="100%" height="100%" preserveAspectRatio="none">
+          <!-- baselines -->
+          <line x1="0" y1="250" x2="600" y2="250" stroke="#2f312b" stroke-width="1"/>
+          <line x1="0" y1="170" x2="600" y2="170" stroke="#242620" stroke-width="1"/>
+          <line x1="0" y1="90"  x2="600" y2="90"  stroke="#242620" stroke-width="1"/>
+          <!-- target band -->
+          <rect x="0" y="78" width="600" height="44" fill="#D8C5A5" opacity="0.10"/>
+          <line x1="0" y1="78"  x2="600" y2="78"  stroke="#D8C5A5" stroke-width="1" opacity="0.28" stroke-dasharray="4 5"/>
+          <line x1="0" y1="122" x2="600" y2="122" stroke="#D8C5A5" stroke-width="1" opacity="0.28" stroke-dasharray="4 5"/>
+          <!-- heat curve -->
+          <path d="M12 250 C 130 250, 190 120, 320 100 S 470 96, 588 100"
+                fill="none" stroke="#F4F0E7" stroke-width="2.5" stroke-linecap="round"/>
+          <!-- current marker -->
+          <line x1="470" y1="70" x2="470" y2="260" stroke="#DD4B1A" stroke-width="1" opacity="0.5"/>
+          <circle cx="470" cy="98" r="6" fill="#DD4B1A"/>
+          <circle cx="470" cy="98" r="11" fill="none" stroke="#DD4B1A" stroke-width="1.2" opacity="0.55"/>
+        </svg>
+      </div>
+      <div style="display:flex;justify-content:space-between;margin-top:8px;">
+        <div class="caption">Preheat</div>
+        <div class="caption">Target band</div>
+        <div class="caption">Hold</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bottombar">
+    <div class="master">Built to Outbake.</div>
+    <div class="disc">Brand vision concept — not a currently marketed product.</div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>
